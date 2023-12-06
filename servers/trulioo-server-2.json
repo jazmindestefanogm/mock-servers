@@ -280,7 +280,7 @@
             {
               "target": "params",
               "modifier": "transactionId",
-              "value": "102",
+              "value": "102$",
               "invert": false,
               "operator": "regex"
             }
