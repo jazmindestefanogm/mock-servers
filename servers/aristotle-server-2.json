@@ -1,0 +1,277 @@
+{
+  "uuid": "2c9d24fe-9278-4239-945c-a74e27b084be",
+  "lastMigration": 32,
+  "name": "aristotle-server",
+  "endpointPrefix": "aristotle",
+  "latency": 0,
+  "port": 3001,
+  "hostname": "",
+  "folders": [],
+  "routes": [
+    {
+      "uuid": "972f9a8d-73e4-4d83-a284-9c0b29ff6899",
+      "type": "http",
+      "documentation": "Call Aristotle V2",
+      "method": "post",
+      "endpoint": "online/authentication_url.asp",
+      "responses": [
+        {
+          "uuid": "a7d29ac6-10e2-446e-849c-9472f0a07b39",
+          "body": "tid=1234567890ABCD&mc=731&err_code=&err_desc=&fraud=Y",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "Case 001",
+          "headers": [],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [
+            {
+              "target": "query",
+              "modifier": "id",
+              "value": "001$",
+              "invert": false,
+              "operator": "regex"
+            }
+          ],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": true,
+          "crudKey": "id",
+          "callbacks": []
+        },
+        {
+          "uuid": "fa39132d-084b-4bf5-8f93-ec73643b139b",
+          "body": "tid=1234567890ABCD&mc=731&err_code=&err_desc=&dead=Y",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "Case 002",
+          "headers": [],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [
+            {
+              "target": "query",
+              "modifier": "id",
+              "value": "002$",
+              "invert": false,
+              "operator": "regex"
+            }
+          ],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": false,
+          "crudKey": "id",
+          "callbacks": []
+        },
+        {
+          "uuid": "d6b3026c-0d7b-438f-9b82-9ae552a424e7",
+          "body": "tid=1234567890ABCD&mc=731&err_code=&err_desc=&pep=Y",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "Case 003",
+          "headers": [],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [
+            {
+              "target": "query",
+              "modifier": "id",
+              "value": "003$",
+              "invert": false,
+              "operator": "regex"
+            }
+          ],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": false,
+          "crudKey": "id",
+          "callbacks": []
+        },
+        {
+          "uuid": "d3a2ecbc-2027-4af1-b6e5-600bb1ebeccd",
+          "body": "tid=1234567890ABCD&mc=0&err_code=&err_desc=&Return_IDCheck=0",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "Case 004",
+          "headers": [],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [
+            {
+              "target": "query",
+              "modifier": "id",
+              "value": "004$",
+              "invert": false,
+              "operator": "regex"
+            }
+          ],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": false,
+          "crudKey": "id",
+          "callbacks": []
+        },
+        {
+          "uuid": "d3e687c3-c49a-448e-ae7e-b036da81c5a1",
+          "body": "tid=1234567890ABCD&mc=10&err_code=&err_desc=&Return_IDCheck=1",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "Case 005",
+          "headers": [],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [
+            {
+              "target": "query",
+              "modifier": "id",
+              "value": "005$",
+              "invert": false,
+              "operator": "regex"
+            }
+          ],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": false,
+          "crudKey": "id",
+          "callbacks": []
+        },
+        {
+          "uuid": "e87fc487-d863-4810-a55d-d3f50df07f33",
+          "body": "tid=1234567890ABCD&mc=731&err_code=0&err_desc=&Return_IDCheck=1",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "Case 006",
+          "headers": [],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [
+            {
+              "target": "query",
+              "modifier": "id",
+              "value": "006$",
+              "invert": false,
+              "operator": "regex"
+            }
+          ],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": false,
+          "crudKey": "id",
+          "callbacks": []
+        },
+        {
+          "uuid": "bbc5322b-4d04-4247-a5ca-fa54daee8714",
+          "body": "tid=1234567890ABCD&mc=0&err_code=&err_desc=&Return_IDCheck=0",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "Case 101",
+          "headers": [],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [
+            {
+              "target": "query",
+              "modifier": "id",
+              "value": "101$",
+              "invert": false,
+              "operator": "regex"
+            }
+          ],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": false,
+          "crudKey": "id",
+          "callbacks": []
+        },
+        {
+          "uuid": "16ba1a2a-378f-4ee2-b7cb-4737b1ded8b9",
+          "body": "tid=1234567890ABCD&mc=731&err_code=0&err_desc=&Return_IDCheck=1",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "Case 102",
+          "headers": [],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [
+            {
+              "target": "query",
+              "modifier": "id",
+              "value": "102$",
+              "invert": false,
+              "operator": "regex"
+            }
+          ],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": false,
+          "crudKey": "id",
+          "callbacks": []
+        }
+      ],
+      "responseMode": "FALLBACK"
+    }
+  ],
+  "rootChildren": [
+    {
+      "type": "route",
+      "uuid": "972f9a8d-73e4-4d83-a284-9c0b29ff6899"
+    }
+  ],
+  "proxyMode": false,
+  "proxyHost": "",
+  "proxyRemovePrefix": false,
+  "tlsOptions": {
+    "enabled": false,
+    "type": "CERT",
+    "pfxPath": "",
+    "certPath": "",
+    "keyPath": "",
+    "caPath": "",
+    "passphrase": ""
+  },
+  "cors": true,
+  "headers": [
+    {
+      "key": "Content-Type",
+      "value": "application/json"
+    }
+  ],
+  "proxyReqHeaders": [
+    {
+      "key": "",
+      "value": ""
+    }
+  ],
+  "proxyResHeaders": [
+    {
+      "key": "",
+      "value": ""
+    }
+  ],
+  "data": [],
+  "callbacks": []
+}

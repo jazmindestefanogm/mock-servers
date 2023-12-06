@@ -1,0 +1,235 @@
+{
+	"info": {
+		"_postman_id": "b56a223a-50d9-4949-a2ed-18cdca89638c",
+		"name": "aristotle-client-v2-deploy",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "21268288",
+		"_collection_link": "https://bold-capsule-977547.postman.co/workspace/Team-Workspace~8e68ab82-9d9a-4cdb-87e1-a753bf386896/collection/21268288-b56a223a-50d9-4949-a2ed-18cdca89638c?action=share&source=collection_link&creator=21268288"
+	},
+	"item": [
+		{
+			"name": "case-001",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "https://transcendent-macaron-fec238.netlify.app/aristotle/online/authentication_url.asp?id=41241001",
+					"protocol": "https",
+					"host": [
+						"transcendent-macaron-fec238",
+						"netlify",
+						"app"
+					],
+					"path": [
+						"aristotle",
+						"online",
+						"authentication_url.asp"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "41241001"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "case-002",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "https://transcendent-macaron-fec238.netlify.app/aristotle/online/authentication_url.asp?id=41241002",
+					"protocol": "https",
+					"host": [
+						"transcendent-macaron-fec238",
+						"netlify",
+						"app"
+					],
+					"path": [
+						"aristotle",
+						"online",
+						"authentication_url.asp"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "41241002"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "case-003",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "https://transcendent-macaron-fec238.netlify.app/aristotle/online/authentication_url.asp?id=41241003",
+					"protocol": "https",
+					"host": [
+						"transcendent-macaron-fec238",
+						"netlify",
+						"app"
+					],
+					"path": [
+						"aristotle",
+						"online",
+						"authentication_url.asp"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "41241003"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "case-004",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "https://transcendent-macaron-fec238.netlify.app/aristotle/online/authentication_url.asp?id=41241004",
+					"protocol": "https",
+					"host": [
+						"transcendent-macaron-fec238",
+						"netlify",
+						"app"
+					],
+					"path": [
+						"aristotle",
+						"online",
+						"authentication_url.asp"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "41241004"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "case-005",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "https://transcendent-macaron-fec238.netlify.app/aristotle/online/authentication_url.asp?id=41241005",
+					"protocol": "https",
+					"host": [
+						"transcendent-macaron-fec238",
+						"netlify",
+						"app"
+					],
+					"path": [
+						"aristotle",
+						"online",
+						"authentication_url.asp"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "41241005"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "case-006",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "https://transcendent-macaron-fec238.netlify.app/aristotle/online/authentication_url.asp?id=41241006",
+					"protocol": "https",
+					"host": [
+						"transcendent-macaron-fec238",
+						"netlify",
+						"app"
+					],
+					"path": [
+						"aristotle",
+						"online",
+						"authentication_url.asp"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "41241006"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "case-101",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "https://transcendent-macaron-fec238.netlify.app/aristotle/online/authentication_url.asp?id=41241101",
+					"protocol": "https",
+					"host": [
+						"transcendent-macaron-fec238",
+						"netlify",
+						"app"
+					],
+					"path": [
+						"aristotle",
+						"online",
+						"authentication_url.asp"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "41241101"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "case-102",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "https://transcendent-macaron-fec238.netlify.app/aristotle/online/authentication_url.asp?id=41241102",
+					"protocol": "https",
+					"host": [
+						"transcendent-macaron-fec238",
+						"netlify",
+						"app"
+					],
+					"path": [
+						"aristotle",
+						"online",
+						"authentication_url.asp"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "41241102"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
