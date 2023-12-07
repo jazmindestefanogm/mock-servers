@@ -1,0 +1,655 @@
+{
+	"info": {
+		"_postman_id": "54c1759d-35ea-49a2-9f72-76a3ccb81a28",
+		"name": "trulioo-client",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "29148780",
+		"_collection_link": "https://www.postman.com/planetary-flare-81052/workspace/mockooners/collection/29148780-54c1759d-35ea-49a2-9f72-76a3ccb81a28?action=share&source=collection_link&creator=29148780"
+	},
+	"item": [
+		{
+			"name": "case-001-dev",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJraWQiOiJiNzU4MmQwYi0zMGU1LTQzZGEtYjNhNC1mZWVhOGVmNmQyZjEiLCJhbGciOiJSUzI1NiJ9.eyJ0cmFuc2FjdGlvbl9pZCI6IjFjYWU0ZWIzLTlmN2YtNGZiYS04MTRjLWUxNTkwZDU2MmFkNSIsInN1YiI6ImQwZTRlNmVmLThjOTEtNDFhZC1hMTdhLWU5NDc2MDBhOTg4OSIsImF1ZCI6ImNvbS50cnVsaW9vLmN1c3RvbWVyLDJiODlhN2U4LWI2ZTMtNDFmMy04Y2JkLTA1ZWIwYmJhNmNiYSwiLCJ1c2UiOiJhY2Nlc3MiLCJpc3MiOiJodHRwczovL2N1c3RvbWVyLnZlcmlmaWNhdGlvbi50cnVsaW9vLmNvbSIsInNvdXJjZSI6ImN1c3RvbWVyIiwiZXhwIjoxNzAxODkzMzMxLCJ0eXBlIjoibGl2ZSIsImlhdCI6MTcwMTg4OTczMX0.mAy-tr8h8cAQ9BO69jyDDLV93orZ2-rfE5A19JVvVQl0nqxhM4HpAAuu7rgPiN23C8CktUt-I66nv10owN-v5QT-fpD49O_kXsF6kb6bp-HEoZQKGUSAbtMgmv5IVjviOjUepL9lZX4texMOJPVFGie3YdqXPaSeWoJe_mFw0c9SLEMCIRnP-zXhta3lHoLCdaCFrzQStiaSFqwGcUNtw6M7vNVdyMTI1a26skP4Ah3jiGfIhy-PmS3P7fA_JCnalmlFXnJ884GkTX01zKh8Bklas9KN5b5eB_nWWRK0TPqdDlZegpgjiXNpbgK3Du0-U_lZtnvzOBwblKDYx0kfR_UxKk_dOSpgRj7ovbPeTt4ybsNu-ZqBi5pv4EsuUMUcPDAtY_iskzaksTUz4v-WtnyaxXLIgu0iwjOUKudlVr5XuAJswqSlRsRHX4WDeJc8ccGdPghX6RJYbsT0Lv6O2P_nbpqxeUjzfaqlLlEev1AYCWHckwTSTMntGWxA2K5q",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://transcendent-macaron-fec238.netlify.app/truilio/customer/transactions/:transactionId",
+					"protocol": "https",
+					"host": [
+						"transcendent-macaron-fec238",
+						"netlify",
+						"app"
+					],
+					"path": [
+						"truilio",
+						"customer",
+						"transactions",
+						":transactionId"
+					],
+					"variable": [
+						{
+							"key": "transactionId",
+							"value": ""
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "case-002-dev",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://transcendent-macaron-fec238.netlify.app/truilio/customer/transactions/:transactionId",
+					"protocol": "https",
+					"host": [
+						"transcendent-macaron-fec238",
+						"netlify",
+						"app"
+					],
+					"path": [
+						"truilio",
+						"customer",
+						"transactions",
+						":transactionId"
+					],
+					"variable": [
+						{
+							"key": "transactionId",
+							"value": "32424234002"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "case-003-dev",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://transcendent-macaron-fec238.netlify.app/truilio/customer/transactions/:transactionId",
+					"protocol": "https",
+					"host": [
+						"transcendent-macaron-fec238",
+						"netlify",
+						"app"
+					],
+					"path": [
+						"truilio",
+						"customer",
+						"transactions",
+						":transactionId"
+					],
+					"variable": [
+						{
+							"key": "transactionId",
+							"value": "333003",
+							"description": "Retrieved via Retrieve Profile"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "case-004-dev",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://transcendent-macaron-fec238.netlify.app/truilio/customer/transactions/:transactionId",
+					"protocol": "https",
+					"host": [
+						"transcendent-macaron-fec238",
+						"netlify",
+						"app"
+					],
+					"path": [
+						"truilio",
+						"customer",
+						"transactions",
+						":transactionId"
+					],
+					"variable": [
+						{
+							"key": "transactionId",
+							"value": "32424234004"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "case-005-dev",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://transcendent-macaron-fec238.netlify.app/truilio/customer/transactions/:transactionId",
+					"protocol": "https",
+					"host": [
+						"transcendent-macaron-fec238",
+						"netlify",
+						"app"
+					],
+					"path": [
+						"truilio",
+						"customer",
+						"transactions",
+						":transactionId"
+					],
+					"variable": [
+						{
+							"key": "transactionId",
+							"value": "32424234005"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "case-101-dev",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://transcendent-macaron-fec238.netlify.app/truilio/customer/transactions/:transactionId",
+					"protocol": "https",
+					"host": [
+						"transcendent-macaron-fec238",
+						"netlify",
+						"app"
+					],
+					"path": [
+						"truilio",
+						"customer",
+						"transactions",
+						":transactionId"
+					],
+					"variable": [
+						{
+							"key": "transactionId",
+							"value": "32424234101"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "case-102-dev",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://transcendent-macaron-fec238.netlify.app/truilio/customer/transactions/:transactionId",
+					"protocol": "https",
+					"host": [
+						"transcendent-macaron-fec238",
+						"netlify",
+						"app"
+					],
+					"path": [
+						"truilio",
+						"customer",
+						"transactions",
+						":transactionId"
+					],
+					"variable": [
+						{
+							"key": "transactionId",
+							"value": "32424234102"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "case-004-dev-front-image",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://transcendent-macaron-fec238.netlify.app/truilio/customer/transactions/:transactionId/images/:imageId",
+					"protocol": "https",
+					"host": [
+						"transcendent-macaron-fec238",
+						"netlify",
+						"app"
+					],
+					"path": [
+						"truilio",
+						"customer",
+						"transactions",
+						":transactionId",
+						"images",
+						":imageId"
+					],
+					"variable": [
+						{
+							"key": "transactionId",
+							"value": "28087e85-9c6c-4ce9-83e2-1fb3d66b8004"
+						},
+						{
+							"key": "imageId",
+							"value": "0116879a-ff2d-4c58-96da-fb4f088452e7"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "case-004-dev-back-image",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://transcendent-macaron-fec238.netlify.app/truilio/customer/transactions/:transactionId/images/:imageId",
+					"protocol": "https",
+					"host": [
+						"transcendent-macaron-fec238",
+						"netlify",
+						"app"
+					],
+					"path": [
+						"truilio",
+						"customer",
+						"transactions",
+						":transactionId",
+						"images",
+						":imageId"
+					],
+					"variable": [
+						{
+							"key": "transactionId",
+							"value": "28087e85-9c6c-4ce9-83e2-1fb3d66b8004"
+						},
+						{
+							"key": "imageId",
+							"value": "78b65b2a-72ee-4b81-a14b-e795cedbc818"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "case-004-dev-selfie-image",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://transcendent-macaron-fec238.netlify.app/truilio/customer/transactions/:transactionId/images/:imageId",
+					"protocol": "https",
+					"host": [
+						"transcendent-macaron-fec238",
+						"netlify",
+						"app"
+					],
+					"path": [
+						"truilio",
+						"customer",
+						"transactions",
+						":transactionId",
+						"images",
+						":imageId"
+					],
+					"variable": [
+						{
+							"key": "transactionId",
+							"value": "28087e85-9c6c-4ce9-83e2-1fb3d66b8004"
+						},
+						{
+							"key": "imageId",
+							"value": "f12885ea-699f-4572-8630-cddc01e8a929"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "case-001-local",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJraWQiOiJiNzU4MmQwYi0zMGU1LTQzZGEtYjNhNC1mZWVhOGVmNmQyZjEiLCJhbGciOiJSUzI1NiJ9.eyJ0cmFuc2FjdGlvbl9pZCI6IjFjYWU0ZWIzLTlmN2YtNGZiYS04MTRjLWUxNTkwZDU2MmFkNSIsInN1YiI6ImQwZTRlNmVmLThjOTEtNDFhZC1hMTdhLWU5NDc2MDBhOTg4OSIsImF1ZCI6ImNvbS50cnVsaW9vLmN1c3RvbWVyLDJiODlhN2U4LWI2ZTMtNDFmMy04Y2JkLTA1ZWIwYmJhNmNiYSwiLCJ1c2UiOiJhY2Nlc3MiLCJpc3MiOiJodHRwczovL2N1c3RvbWVyLnZlcmlmaWNhdGlvbi50cnVsaW9vLmNvbSIsInNvdXJjZSI6ImN1c3RvbWVyIiwiZXhwIjoxNzAxODkzMzMxLCJ0eXBlIjoibGl2ZSIsImlhdCI6MTcwMTg4OTczMX0.mAy-tr8h8cAQ9BO69jyDDLV93orZ2-rfE5A19JVvVQl0nqxhM4HpAAuu7rgPiN23C8CktUt-I66nv10owN-v5QT-fpD49O_kXsF6kb6bp-HEoZQKGUSAbtMgmv5IVjviOjUepL9lZX4texMOJPVFGie3YdqXPaSeWoJe_mFw0c9SLEMCIRnP-zXhta3lHoLCdaCFrzQStiaSFqwGcUNtw6M7vNVdyMTI1a26skP4Ah3jiGfIhy-PmS3P7fA_JCnalmlFXnJ884GkTX01zKh8Bklas9KN5b5eB_nWWRK0TPqdDlZegpgjiXNpbgK3Du0-U_lZtnvzOBwblKDYx0kfR_UxKk_dOSpgRj7ovbPeTt4ybsNu-ZqBi5pv4EsuUMUcPDAtY_iskzaksTUz4v-WtnyaxXLIgu0iwjOUKudlVr5XuAJswqSlRsRHX4WDeJc8ccGdPghX6RJYbsT0Lv6O2P_nbpqxeUjzfaqlLlEev1AYCWHckwTSTMntGWxA2K5q",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:3001/truilio/customer/transactions/:transactionId",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"truilio",
+						"customer",
+						"transactions",
+						":transactionId"
+					],
+					"variable": [
+						{
+							"key": "transactionId",
+							"value": ""
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "case-002-local",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3001/truilio/customer/transactions/:transactionId",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"truilio",
+						"customer",
+						"transactions",
+						":transactionId"
+					],
+					"variable": [
+						{
+							"key": "transactionId",
+							"value": "32424234002"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "case-003-local",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3001/truilio/customer/transactions/:transactionId",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"truilio",
+						"customer",
+						"transactions",
+						":transactionId"
+					],
+					"variable": [
+						{
+							"key": "transactionId",
+							"value": "333003",
+							"description": "Retrieved via Retrieve Profile"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "case-004-local",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3001/truilio/customer/transactions/:transactionId",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"truilio",
+						"customer",
+						"transactions",
+						":transactionId"
+					],
+					"variable": [
+						{
+							"key": "transactionId",
+							"value": "32424234004"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "case-005-local",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3001/truilio/customer/transactions/:transactionId",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"truilio",
+						"customer",
+						"transactions",
+						":transactionId"
+					],
+					"variable": [
+						{
+							"key": "transactionId",
+							"value": "32424234005"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "case-101-local",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3001/truilio/customer/transactions/:transactionId",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"truilio",
+						"customer",
+						"transactions",
+						":transactionId"
+					],
+					"variable": [
+						{
+							"key": "transactionId",
+							"value": "32424234101"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "case-102-local",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3001/truilio/customer/transactions/:transactionId",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"truilio",
+						"customer",
+						"transactions",
+						":transactionId"
+					],
+					"variable": [
+						{
+							"key": "transactionId",
+							"value": "32424234102"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "case-004-local-front-image",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3001/truilio/customer/transactions/:transactionId/images/:imageId",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"truilio",
+						"customer",
+						"transactions",
+						":transactionId",
+						"images",
+						":imageId"
+					],
+					"variable": [
+						{
+							"key": "transactionId",
+							"value": "28087e85-9c6c-4ce9-83e2-1fb3d66b8004"
+						},
+						{
+							"key": "imageId",
+							"value": "0116879a-ff2d-4c58-96da-fb4f088452e7"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "case-004-local-back-image",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3001/truilio/customer/transactions/:transactionId/images/:imageId",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"truilio",
+						"customer",
+						"transactions",
+						":transactionId",
+						"images",
+						":imageId"
+					],
+					"variable": [
+						{
+							"key": "transactionId",
+							"value": "28087e85-9c6c-4ce9-83e2-1fb3d66b8004"
+						},
+						{
+							"key": "imageId",
+							"value": "78b65b2a-72ee-4b81-a14b-e795cedbc818"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "case-004-local-selfie-image",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3001/truilio/customer/transactions/:transactionId/images/:imageId",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"truilio",
+						"customer",
+						"transactions",
+						":transactionId",
+						"images",
+						":imageId"
+					],
+					"variable": [
+						{
+							"key": "transactionId",
+							"value": "28087e85-9c6c-4ce9-83e2-1fb3d66b8004"
+						},
+						{
+							"key": "imageId",
+							"value": "f12885ea-699f-4572-8630-cddc01e8a929"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

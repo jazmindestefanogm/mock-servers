@@ -1,0 +1,451 @@
+{
+	"info": {
+		"_postman_id": "a02b5e0b-98ca-4dc5-8164-306c164e72f9",
+		"name": "aristotle-client",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "29148780",
+		"_collection_link": "https://www.postman.com/planetary-flare-81052/workspace/mockooners/collection/29148780-a02b5e0b-98ca-4dc5-8164-306c164e72f9?action=share&source=collection_link&creator=29148780"
+	},
+	"item": [
+		{
+			"name": "case-001-dev",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "https://transcendent-macaron-fec238.netlify.app/aristotle/online/authentication_url.asp?id=41241001",
+					"protocol": "https",
+					"host": [
+						"transcendent-macaron-fec238",
+						"netlify",
+						"app"
+					],
+					"path": [
+						"aristotle",
+						"online",
+						"authentication_url.asp"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "41241001"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "case-002-dev",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "https://transcendent-macaron-fec238.netlify.app/aristotle/online/authentication_url.asp?id=41241002",
+					"protocol": "https",
+					"host": [
+						"transcendent-macaron-fec238",
+						"netlify",
+						"app"
+					],
+					"path": [
+						"aristotle",
+						"online",
+						"authentication_url.asp"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "41241002"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "case-003-dev",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "https://transcendent-macaron-fec238.netlify.app/aristotle/online/authentication_url.asp?id=41241003",
+					"protocol": "https",
+					"host": [
+						"transcendent-macaron-fec238",
+						"netlify",
+						"app"
+					],
+					"path": [
+						"aristotle",
+						"online",
+						"authentication_url.asp"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "41241003"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "case-004-dev",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "https://transcendent-macaron-fec238.netlify.app/aristotle/online/authentication_url.asp?id=41241004",
+					"protocol": "https",
+					"host": [
+						"transcendent-macaron-fec238",
+						"netlify",
+						"app"
+					],
+					"path": [
+						"aristotle",
+						"online",
+						"authentication_url.asp"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "41241004"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "case-005-dev",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "https://transcendent-macaron-fec238.netlify.app/aristotle/online/authentication_url.asp?id=41241005",
+					"protocol": "https",
+					"host": [
+						"transcendent-macaron-fec238",
+						"netlify",
+						"app"
+					],
+					"path": [
+						"aristotle",
+						"online",
+						"authentication_url.asp"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "41241005"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "case-006-dev",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "https://transcendent-macaron-fec238.netlify.app/aristotle/online/authentication_url.asp?id=41241006",
+					"protocol": "https",
+					"host": [
+						"transcendent-macaron-fec238",
+						"netlify",
+						"app"
+					],
+					"path": [
+						"aristotle",
+						"online",
+						"authentication_url.asp"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "41241006"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "case-101-dev",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "https://transcendent-macaron-fec238.netlify.app/aristotle/online/authentication_url.asp?id=41241101",
+					"protocol": "https",
+					"host": [
+						"transcendent-macaron-fec238",
+						"netlify",
+						"app"
+					],
+					"path": [
+						"aristotle",
+						"online",
+						"authentication_url.asp"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "41241101"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "case-102-dev",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "https://transcendent-macaron-fec238.netlify.app/aristotle/online/authentication_url.asp?id=41241102",
+					"protocol": "https",
+					"host": [
+						"transcendent-macaron-fec238",
+						"netlify",
+						"app"
+					],
+					"path": [
+						"aristotle",
+						"online",
+						"authentication_url.asp"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "41241102"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "case-001-local",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3001/aristotle/online/authentication_url.asp?id=41241001",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"aristotle",
+						"online",
+						"authentication_url.asp"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "41241001"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "case-002-local",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3001/aristotle/online/authentication_url.asp?id=41241002",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"aristotle",
+						"online",
+						"authentication_url.asp"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "41241002"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "case-003-local",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3001/aristotle/online/authentication_url.asp?id=41241003",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"aristotle",
+						"online",
+						"authentication_url.asp"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "41241003"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "case-004-local",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3001/aristotle/online/authentication_url.asp?id=41241004",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"aristotle",
+						"online",
+						"authentication_url.asp"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "41241004"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "case-005-local",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3001/aristotle/online/authentication_url.asp?id=41241005",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"aristotle",
+						"online",
+						"authentication_url.asp"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "41241005"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "case-006-local",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3001/aristotle/online/authentication_url.asp?id=41241006",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"aristotle",
+						"online",
+						"authentication_url.asp"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "41241006"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "case-101-local",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3001/aristotle/online/authentication_url.asp?id=41241101",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"aristotle",
+						"online",
+						"authentication_url.asp"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "41241101"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "case-102-local",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3001/aristotle/online/authentication_url.asp?id=41241102",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"aristotle",
+						"online",
+						"authentication_url.asp"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "41241102"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
